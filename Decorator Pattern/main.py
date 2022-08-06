@@ -1,10 +1,12 @@
+from Text import Text
 from PlainText import PlainText
-from Decorators import RedColoredText, BlueColoredText
+from Decorators import RedColoredText
 from Decorators import GreenBackgroundText, BlueBackgroundText
 from colorama import init
 
 
 init(autoreset=True)
+
 
 def main() -> None:
     txt = PlainText("Seom Text")
@@ -20,7 +22,6 @@ def main() -> None:
 
     print(red_txt_blue_bg.display())
     print(red_txt_green_bg.display())
-
 
 
 if __name__ == "__main__":
