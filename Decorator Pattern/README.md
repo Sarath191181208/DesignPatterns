@@ -1,6 +1,6 @@
 ```mermaid
 classDiagram
-    
+
     Text <|-- PlainText
     Text <|-- TextDecorator
     TextDecorator <-- Text
